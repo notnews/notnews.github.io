@@ -23,11 +23,9 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        <a href="http://notnews.github.io/index.html#data">Data</a>
-        <a href="http://notnews.github.io/index.html#analysis">Analysis</a>
-      {% endif %}
+      <a href="http://github.com/notnews/" class="btn">View on GitHub</a>
+      <a href="http://notnews.github.io/index.html#data"  class="btn">Data</a>
+      <a href="http://notnews.github.io/index.html#analysis"  class="btn">Analysis</a>
     </header>
 
     <main id="content" class="main-content" role="main">
